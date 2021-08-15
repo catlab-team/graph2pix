@@ -1,4 +1,4 @@
-# A Graph-Based Image to Image Translation Framework
+# Graph2Pix: A Graph-Based Image to Image Translation Framework
 
 ## Installation
 
