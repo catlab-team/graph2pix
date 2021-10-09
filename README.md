@@ -26,3 +26,15 @@ $ python -m pytorch_fid gen_images/art_newbreeder_allparents_bs8_disc/gts gen_im
 
 ## Acknowledgments
 The basis of this code is [pix2pixHD](https://github.com/NVIDIA/pix2pixHD).
+
+## Citation
+
+If you use this code for your research, please cite our paper:
+```
+@article{gokay2021graph2pix,
+  title={Graph2Pix: A Graph-Based Image to Image Translation Framework},
+  author={Gokay, Dilara and Simsar, Enis and Atici, Efehan and Ahmetoglu, Alper and Yuksel, Atif Emre and Yanardag, Pinar},
+  journal={arXiv preprint arXiv:2108.09752},
+  year={2021}
+}
+```
