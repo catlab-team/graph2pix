@@ -144,35 +144,23 @@
         <!--/ Abstract. -->    
     </div>
 </section>
-<section>
-    <div class="container is-max-desktop">
-        <div class="columns is-centered">
-            <div class="column is-full-width">
-                <h2 class="title">Graph2Pix Framework</h2>
-                <div class="content has-text-justified">
-                    <img src="static/images/final_gcn.png">
-                    <p>
-                        An illustration of Graph2Pix. During the generation process (shown on the left) our 2-layer GCN module takes A<sub>1</sub> ... A<sub>n</sub>, the ancestors  of an image as an input, and generates the prediction. The discriminator (shown on the right) takes the concatenation of the input images A<sub>1</sub> ... A<sub>n</sub> and the generated image G(x) and creates a prediction. Note that we placed GCN after the convolutional layer to use it more efficiently.
-                    </p>
-                </div>
-            </div>
-        </div>
+<section class="section">
+    <div class="container is-max-desktop content">
+        <h2 class="title">Graph2Pix Framework</h2>
+        <img src="static/images/final_gcn.png">
+        <p>
+            An illustration of Graph2Pix. During the generation process (shown on the left) our 2-layer GCN module takes A<sub>1</sub> ... A<sub>n</sub>, the ancestors  of an image as an input, and generates the prediction. The discriminator (shown on the right) takes the concatenation of the input images A<sub>1</sub> ... A<sub>n</sub> and the generated image G(x) and creates a prediction. Note that we placed GCN after the convolutional layer to use it more efficiently.
+        </p>
     </div>
 </section>
 
-<section>
-    <div class="container is-max-desktop">
-        <div class="columns is-centered">
-            <div class="column is-full-width">
-                <h2 class="title">Experiments</h2>
-                <div class="content has-text-justified">
-                    <img src="static/images/newsamples3.png">
-                    <p>
-                        A qualitative comparison of our method with the top performing competitors, Pix2PixHD and U-GAT-IT. First-level ancestors (Parent<sub>1</sub> and Parent<sub>2</sub>) are shown on the left where the ground truth image is denoted with Child. As can be seen from the results, our method is able to incorporate the ancestor information when generating the images whereas Pix2PixHD and U-GAT-IT are limited to a single ancestor image (Parent<sub>1</sub>). Due to lack of space, only first-degree parents are  shown, however a sample lineage for the bottom-left image can be seen on Artbreeder.
-                    </p>
-                </div>
-            </div>
-        </div>
+<section class="section">
+    <div class="container is-max-desktop content">
+        <h2 class="title">Experiments</h2>
+        <img src="static/images/newsamples3.png">
+        <p>
+            A qualitative comparison of our method with the top performing competitors, Pix2PixHD and U-GAT-IT. First-level ancestors (Parent<sub>1</sub> and Parent<sub>2</sub>) are shown on the left where the ground truth image is denoted with Child. As can be seen from the results, our method is able to incorporate the ancestor information when generating the images whereas Pix2PixHD and U-GAT-IT are limited to a single ancestor image (Parent<sub>1</sub>). Due to lack of space, only first-degree parents are  shown, however a sample lineage for the bottom-left image can be seen on Artbreeder.
+        </p>
     </div>
 </section>
 
