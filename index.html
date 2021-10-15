@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+          content="##########">
+    <meta name="keywords" content="LatentCLR">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Graph2Pix: A Graph-Based Image to Image Translation Framework</title>
+    <!-- BAAk -->
+    <!-- Global site tag (gtag.js) - Google Analytics  -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PYVRSFMDRL');
+
+
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                                     <h3 class="title is-4">In AIM ICCV 2021</h3>
+
+                    <h1 class="title is-1 publication-title">Graph2Pix: A Graph-Based Image to Image Translation Framework</h1>
+                    <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <span>Dilara Gokay<sup>1*</sup>,</span>
+                        <span class="author-block">
+              <span>Enis Simsar<sup>1*</sup>,</span>
+                        <span class="author-block">
+              <span>Efehan Atici<span><sup>2</sup>,
+            </span>
+        </div>
+        <div class="is-size-5 publication-authors">
+            <span class="author-block">
+                <span>Alper Ademoglu<span><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <span>Atif Emre Yuksel<span><sup>2</sup>,
+              </span>
+                        <span class="author-block">
+              <a href="https://pinguar.org/">Pinar Yanardag</a><sup>2</sup>
+            </span>
+                    </div>
+
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block"><sup>1</sup>Technical University of Munich,</span>
+                        <span class="author-block"><sup>2</sup>Bogazici University</span>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                            <!-- PDF Link. -->
+
+                            <span class="link-block">
+                <a href="https://arxiv.org/abs/2108.09752"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+                            <!-- Code Link. -->
+                            <span class="link-block">
+                <a href="https://github.com/catlab-team/Graph2Pix"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!--/ Paper video. -->
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+
+                    <p>
+                        In this paper, we propose a graph-based image-to-image translation framework for generating images. We use rich data collected from the popular creativity platform Artbreeder (http://artbreeder.com), where users interpolate multiple GAN-generated images to create artworks. This unique approach of creating new images leads to a tree-like structure where one can track historical data about the creation of a particular image. Inspired by this structure, we propose a novel graph-to-image translation model called Graph2Pix, which takes a graph and corresponding images as input and generates a single image as output. Our experiments show that Graph2Pix is able to outperform several image-to-image translation frameworks on benchmark metrics, including LPIPS (with a 25% improvement) and human perception studies (n=60), where users preferred the images generated by our method 81.5% of the time. Our source code and dataset are publicly available at https://github.com/catlab-team/graph2pix.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <!--/ Abstract. -->    
+    </div>
+</section>
+
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@inproceedings{graph2pix2021,
+    title={Graph2Pix: A Graph-Based Image to Image Translation Framework},
+    author={Gokay, Dilara and Simsar, Enis and Atici, Efehan and Ahmetoglu, Alper and Yuksel, Atif Emre and Yanardag, Pinar},
+    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+    pages={2001--2010},
+    year={2021}
+}</code></pre>
+    </div>
+</section>
+
+
+<section class="section" id="ack">
+    <div class="container is-max-desktop content">
+        <h2 class="title">Acknowledgments</h2>
+        <p>
+            This publication has been produced
+            benefiting from the 2232 International Fellowship for Outstanding Researchers Program of TUBITAK (Project No:
+            118c321). We also acknowledge the support of NVIDIA
+            Corporation through the donation of the TITAN X GPU and
+            GCP research credits from Google. We also would like to
+            thank Joel Simon for their support in collecting the dataset.
+        </p>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+                    <p>
+                        This website is licensed under a <a rel="license"
+                                                            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                        Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </p>
+                    <p>
+                        Template from <a
+                            href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
