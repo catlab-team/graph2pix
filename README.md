@@ -1,17 +1,16 @@
-# LatentCLR: A Contrastive Learning Approach for Unsupervised Discovery of Interpretable Directions
+# Graph2Pix: A Graph-Based Image to Image Translation Framework
 
-This is the repository that contains source code for the [LatentCLR website](https://catlab-team.github.io/latentclr/).
+This is the repository that contains source code for the [Graph2Pix website](https://catlab-team.github.io/graph2pix/).
 
 
 If you find our work useful please cite:
 ```
-@inproceedings{yuksel2021latentclr,
-  title={LatentCLR: A Contrastive Learning Approach for Unsupervised Discovery of Interpretable Directions},
-  author={Y{\"u}ksel, O{\u{g}}uz Kaan and Simsar, Enis and Er, Ezgi G{\"u}lperi and Yanardag, Pinar},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-  month={October},
-  year={2021},
-  pages={14263-14272}
+@inproceedings{graph2pix2021,
+    title={Graph2Pix: A Graph-Based Image to Image Translation Framework},
+    author={Gokay, Dilara and Simsar, Enis and Atici, Efehan and Ahmetoglu, Alper and Yuksel, Atif Emre and Yanardag, Pinar},
+    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+    pages={2001--2010},
+    year={2021}
 }
 ```
 
