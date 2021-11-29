@@ -31,10 +31,12 @@ The basis of this code is [pix2pixHD](https://github.com/NVIDIA/pix2pixHD).
 
 If you use this code for your research, please cite our paper:
 ```
-@article{gokay2021graph2pix,
-  title={Graph2Pix: A Graph-Based Image to Image Translation Framework},
-  author={Gokay, Dilara and Simsar, Enis and Atici, Efehan and Ahmetoglu, Alper and Yuksel, Atif Emre and Yanardag, Pinar},
-  journal={arXiv preprint arXiv:2108.09752},
-  year={2021}
+@InProceedings{Gokay_2021_ICCV,
+    author    = {Gokay, Dilara and Simsar, Enis and Atici, Efehan and Ahmetoglu, Alper and Yuksel, Atif Emre and Yanardag, Pinar},
+    title     = {Graph2Pix: A Graph-Based Image to Image Translation Framework},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2021},
+    pages     = {2001-2010}
 }
 ```
